@@ -8,7 +8,7 @@ services:
         - http_proxy
         - https_proxy
         - no_proxy
-    image: tsed/multer-example:latest
+    image: tsed-example-basic/server:latest
     ports:
       - "8081:8081"
     stdin_open: true  # -i
